@@ -1,0 +1,14 @@
+{
+  "name": "e-ink-dashboard",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "download": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

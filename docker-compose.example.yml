@@ -1,0 +1,7 @@
+services:
+  e-ink-dashboard:
+    image: ghcr.io/YOUR_GITHUB_USERNAME/e-ink-dashboard:latest
+    container_name: e-ink-dashboard
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
